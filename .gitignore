@@ -11,4 +11,7 @@ dist
 stats.html
 
 .eslintcache
+# OS generated files
+
 .DS_Store
+.DS_Store?
