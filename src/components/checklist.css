@@ -1,0 +1,41 @@
+.checklist-container {
+    display: grid;
+    grid-gap: 20px;
+}
+
+.notes-checklist-input {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    outline: none;
+    width: 100%;
+    height: 8vh;
+    text-align: left;
+    background-color: #faf3f3;
+    color: #6a0b0b;
+    border: 1px solid #990000;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-size: 16px;
+    resize: none;
+    outline: none;
+}
+
+.notes-checklist-add-button {
+    justify-self: right;
+    width: fit-content;
+    font-size: large;
+    background-color: #fbb1b1;
+    border: 1px solid #b30000;
+    border-radius: 12px;
+    padding: 10px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.notes-checklist-add-button:hover {
+    justify-self: right;
+    opacity: 1;
+    background-color: #ff9999;
+    color: #ffffff;
+}

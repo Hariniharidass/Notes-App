@@ -1,0 +1,64 @@
+.menu-body {
+    text-align: center;
+    background-color: #ffe6e6;
+    color: #330000;
+    border: 10px solid #990000;
+    padding: 100px;
+}
+
+.menu-title {
+    font-family: 'Lucida Grande';
+    padding-top: 0%;
+    padding-bottom: 50px;
+}
+
+.menu-description {
+    font-family: 'Georgia';
+}
+
+.button-container {
+    padding-top: 10px;
+    display: grid-inline;
+    grid-gap: 20px;
+}
+
+.add-button,
+.display-button {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: large;
+    width: fit-content;
+    background-color: #fbb1b1;
+    border: 1px solid #b30000;
+    border-radius: 12px;
+    padding: 10px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.add-button:hover,
+.display-button:hover {
+    opacity: 1;
+    background-color: #ff9999;
+    color: #ffffff;
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .menu-title {
+        padding-bottom: 30px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

@@ -1,14 +1,9 @@
-import { useState } from 'react'
 
-
+import Menu from './components/menu'
 function App() {
-
-
   return (
     <>
-
-      <h1>Welcome to my Notes</h1>
-
+      <Menu />
     </>
   )
 }
