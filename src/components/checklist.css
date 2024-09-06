@@ -22,6 +22,8 @@
 }
 
 .notes-checklist-add-button {
+    margin-top: 20px;
+    margin-right: 20px;
     justify-self: right;
     width: fit-content;
     font-size: large;

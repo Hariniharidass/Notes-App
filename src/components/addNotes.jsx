@@ -8,11 +8,9 @@ const addNotes = () => {
     return (
         <div >
 
-            <h3 style={{ textAlign: 'left' }}>Do you want to add checklists? 
+            <h3 style={{ textAlign: 'left' }}>Do you want to add checklists?
            </h3>
 
-
-            <Checklist />
             <TextareaContainer />
         </div >
     )
